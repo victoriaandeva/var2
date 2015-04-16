@@ -1,6 +1,6 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="variables_set" id="27" inline="true" x="65" y="16">
-    <field name="VAR">straight time</field>
+    <field name="VAR">straightTime</field>
     <value name="VALUE">
       <block type="math_number" id="224">
         <field name="NUM">200</field>
@@ -39,7 +39,7 @@
                               <block type="robot_delay" id="159" inline="true">
                                 <value name="DELAY">
                                   <block type="variables_get" id="241">
-                                    <field name="VAR">straight time</field>
+                                    <field name="VAR">straightTime</field>
                                   </block>
                                 </value>
                                 <next>
@@ -53,13 +53,13 @@
                                         </value>
                                         <next>
                                           <block type="variables_set" id="184" inline="true">
-                                            <field name="VAR">straight time</field>
+                                            <field name="VAR">straightTime</field>
                                             <value name="VALUE">
                                               <block type="math_arithmetic" id="260" inline="true">
                                                 <field name="OP">ADD</field>
                                                 <value name="A">
                                                   <block type="variables_get" id="264">
-                                                    <field name="VAR">straight time</field>
+                                                    <field name="VAR">straightTime</field>
                                                   </block>
                                                 </value>
                                                 <value name="B">
