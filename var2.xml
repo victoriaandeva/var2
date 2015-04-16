@@ -33,6 +33,11 @@
                     <field name="TEXT">straight time</field>
                     <next>
                       <block type="oled_drawnumber" id="109" inline="true">
+                        <value name="NUMBER">
+                          <block type="variables_get" id="266">
+                            <field name="VAR">straightTime</field>
+                          </block>
+                        </value>
                         <next>
                           <block type="movement_forward" id="137">
                             <next>
